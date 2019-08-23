@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Player | Favourites</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="https://kit.fontawesome.com/74ce33a6e1.js"></script>
+    </head>
+    <body>
+        <!-- ************** Header Section of Web Page **************** -->
+        <header id="page-header">
+            <div id="left-menu">
+                <a href="#"><img id="musicPlayer-logo" src="images/my_logo.png" alt="&nbsp Music Player logo"></a>
+            </div>
+            <div id="right-menu">
+                <div>
+                    <p id="page-title">Favourites</p>
+                </div>
+                <div id="right-menu-search">
+                    <form action="" method="GET" id="search-form"> 
+                        <label for="search"><i class="fas fa-search"></i></label>
+                        <input type="text" placeholder="Search" name="search" id="search" class="search-input">
+                        <i class="fas fa-microphone fill-on-hover"></i>
+                    </form>
+                    <a href="#drop-down-search" id="drop-down-search-btn"><i class="fas fa-search"></i></a>
+                    <i class="fas fa-bell fill-on-hover"></i>
+                    <img id="profile-photo" src="images/Profile-photo.jpeg">                    
+                </div>
+
+            </div>
+            <div id="drop-down-search">
+                <a href="#"><img id="musicPlayer-logo" src="images/my_logo.png" alt="&nbsp Music Player logo"></a>
+                <form action="" method="GET"> 
+                        <label for="drop-down-search-form"><i class="fas fa-search"></i></label>
+                        <input type="text" placeholder="Search" name="search" id="drop-down-search-form" class="search-input">
+                        <i class="fas fa-microphone fill-on-hover"></i>
+                        <a href="#" id="close-drop-down-form"><i class="far fa-times-circle"></i></a>
+                </form>
+            </div>
+        </header>
+
+        <!-- ************** Main Content of Web Page ************** -->
+        <main>
+            <div id="main-content">
+
+                <!-- ************** Image Corousel Section **************  -->
+                <section id="main-corousel">
+                    <div>
+                        <img src="images/ultra.jpg">
+                    </div>
+                   
+                    <div>
+                        <img src="images/Mood-Boosters.jfif">
+                    </div>
+
+                    <div>
+                        <img src="images/Explore-New-EDM.jfif">
+                    </div>
+                    <div>
+                        <img src="images/ultra.jpg">
+                    </div>
+                   
+                    <div>
+                        <img src="images/Mood-Boosters.jfif">
+                    </div>
+
+                    <div>
+                        <img src="images/Explore-New-EDM.jfif">
+                    </div>
+                    
+                </section>
+
+
+                <!-- ************** Latest Release Section ************** -->
+                <section id="latest-release-section">
+                    <h3 class="section-title">Latest Release</h3>  
+                    <div class="section-body">
+                        <div class="album-container">
+                            <div class="album-img">
+                                <img src="images/onism.jpg">
+                                <a href="#play-bar">
+                                    <div class="play-button-on-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="album-details">
+                                <p class="album-title">Onism</p>
+                                <p class="release-date">AUG&nbsp11,2017</p>
+                                <p class="album-more"><a href="#album-menu-1"><i class="fas fa-ellipsis-h"></i></a></p>
+                                <p class="album-duration">4:44</p>
+                                <div id="album-menu-1" class="album-menu menu">
+                                    <a href="#" class="close-menu"><i class="far fa-times-circle"></i></a>
+                                    <ul>
+                                        <li><span><i class="fas fa-play"></i></span><span>Play Now</span></li>
+                                        <li><span><i class="fas fa-plus"></i></span><span>Add To Queue</span></li>
+                                        <li><span><i class="fas fa-star"></i></span><span>Add To Fav</span>
+                                        </li>
+                                        <li><span>
+                                            <i class="fas fa-info-circle"></i>
+                                        </span>
+                                        <span>
+                                            Info
+                                        </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="album-container">
+                            <div class="album-img">
+                                <img src="images/onism.jpg">
+                                <a href="#play-bar">
+                                    <div class="play-button-on-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="album-details">
+                                <p class="album-title">Onism</p>
+                                <p class="release-date">AUG&nbsp11,2017</p>
+                                <p class="album-more"><a href="#album-menu-2"><i class="fas fa-ellipsis-h"></i></a></p>
+                                <p class="album-duration">4:44</p>
+                                <div id="album-menu-2" class="album-menu menu">
+                                    <a href="#" class="close-menu"><i class="far fa-times-circle"></i></a>
+                                    <ul>
+                                        <li><span><i class="fas fa-play"></i></span><span>Play Now</span></li>
+                                        <li><span><i class="fas fa-plus"></i></span><span>Add To Queue</span></li>
+                                        <li><span><i class="fas fa-star"></i></span><span>Add To Fav</span>
+                                        </li>
+                                        <li><span>
+                                            <i class="fas fa-info-circle"></i>
+                                        </span>
+                                        <span>
+                                            Info
+                                        </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="album-container">
+                            <div class="album-img">
+                                <img src="images/onism.jpg">
+                                <a href="#play-bar">
+                                    <div class="play-button-on-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="album-details">
+                                <p class="album-title">Onism</p>
+                                <p class="release-date">AUG&nbsp11,2017</p>
+                                <p class="album-more"><a href="#album-menu-3"><i class="fas fa-ellipsis-h"></i></a></p>
+                                <p class="album-duration">4:44</p>
+                                <div id="album-menu-3" class="album-menu menu">
+                                    <a href="#" class="close-menu"><i class="far fa-times-circle"></i></a>
+                                    <ul>
+                                        <li><span><i class="fas fa-play"></i></span><span>Play Now</span></li>
+                                        <li><span><i class="fas fa-plus"></i></span><span>Add To Queue</span></li>
+                                        <li><span><i class="fas fa-star"></i></span><span>Add To Fav</span>
+                                        </li>
+                                        <li><span>
+                                            <i class="fas fa-info-circle"></i>
+                                        </span>
+                                        <span>
+                                            Info
+                                        </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="album-container">
+                            <div class="album-img">
+                                <img src="images/onism.jpg">
+                                <a href="#play-bar">
+                                    <div class="play-button-on-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="album-details">
+                                <p class="album-title">Onism</p>
+                                <p class="release-date">AUG&nbsp11,2017</p>
+                                <p class="album-more"><a href="#album-menu-4"><i class="fas fa-ellipsis-h"></i></a></p>
+                                <p class="album-duration">4:44</p>
+                                <div id="album-menu-4" class="album-menu menu">
+                                    <a href="#" class="close-menu"><i class="far fa-times-circle"></i></a>
+                                    <ul>
+                                        <li><span><i class="fas fa-play"></i></span><span>Play Now</span></li>
+                                        <li><span><i class="fas fa-plus"></i></span><span>Add To Queue</span></li>
+                                        <li><span><i class="fas fa-star"></i></span><span>Add To Fav</span>
+                                        </li>
+                                        <li><span>
+                                            <i class="fas fa-info-circle"></i>
+                                        </span>
+                                        <span>
+                                            Info
+                                        </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- ************** Popular Artists Section ************** -->
+                <section id="popular-artist-section">
+                    <h3 class="section-title">Popular Artists</h3>
+                    <div class="section-body">
+                        <div class="artist-container">
+                            <div class="img-div img-div-img">
+                                <a href="singer.html">
+                                    <div class="artist-play-button-on-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <p>Ed Sheeran</p>
+                        </div>
+                        <div class="artist-container">
+                            <div class="img-div img-div-img">
+                                <a href="singer.html">
+                                    <div class="artist-play-button-on-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <p>ColdPlay</p>
+                        </div>
+                        <div class="artist-container">
+                            <div class="img-div img-div-img">
+                                <a href="singer.html">
+                                    <div class="artist-play-button-on-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <p>Zayn</p>
+                        </div>
+                        <div class="artist-container">
+                            <div class="img-div img-div-img">
+                                <a href="singer.html">
+                                    <div class="artist-play-button-on-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <p>Charlie Puth</p>
+                        </div>
+                        <div class="artist-container">
+                            <div class="img-div img-div-img">
+                                <a href="singer.html">
+                                    <div class="artist-play-button-on-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <p>Imagine Dragons</p>
+                        </div>
+                        <div class="artist-container">
+                            <div class="img-div img-div-img">
+                                <a href="singer.html">
+                                    <div class="artist-play-button-on-hover">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <p>Bruno Mars</p>
+                        </div>
+                    </div>  
+                </section>
+
+
+                <!-- ************** Stations Section**************  -->
+                <section id="stations-section">
+                    <div class="section-body">
+                        <div id="stations-logo">
+                            <div>
+                            </div>
+                            <div>
+                            </div>
+                            <div>
+                                <img src="images/my_logo_1.png">
+                                <p>Stations</p>
+                            </div>
+                        </div> 
+                        <div id="stations-container">
+                            <div class="stations">
+                                <div>
+                                    <p>Love</p>
+                                </div>
+
+                            </div>
+                            <div class="stations">
+                                <div>
+                                    <p>Retro</p>
+                                </div>
+
+                            </div>
+                            <div class="stations">
+                                <div>
+                                    <p>Chill</p>
+                                </div>
+
+                            </div>
+                            <div class="stations">
+                                <div>
+                                    <p>Workout</p>
+                                </div>
+
+                            </div>
+                            <div class="stations">
+                                <div>
+                                    <p>Rock</p>
+                                </div>
+
+                            </div>
+                            <div class="stations">
+                                <div>
+                                    <p>Pop</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>   
+
+
+                <!-- ************** Ocassion Section (Party | Electronic | Road Trip)************** -->
+                <section id="ocassion-section">
+                    <div class="section-body ocassion-section-body">
+                        <div id="party-div">
+                            <div>
+                                <p>Party</p>
+                            </div>
+                        </div>
+                        <div id="electronic-div">
+                            <div>
+                                <p>Electronics</p>
+                            </div>
+                        </div>
+                        <div id="road-trip-div">
+                            <div>
+                                <p>Road Trip</p>
+                            </div>
+                        </div>
+
+                    </div> 
+                </section>  
+
+
+                <!-- ************** Latest English Songs Section **************  -->
+                <section id="latest-english-section">
+                    <h3 class="section-title">Latest English</h3> 
+                    <div class="section-body">
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                    </div> 
+                </section> 
+
+
+                <!-- ************** Latest Hindi Songs Section ************** -->
+                <section id="latest-hindi-section">
+                    <h3 class="section-title">Latest Hindi</h3> 
+                    <div class="section-body">
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                        <div class="song-container">
+                            <div class="song-img-div">
+                                
+                            </div>
+                            <p>Onism</p>
+                            <p>AUG&nbsp11,2017</p>
+                        </div>
+                    </div>  
+                </section> 
+            </div>
+
+
+            <!-- ************** Aside Section (Playlist Queue) ************** -->
+            <aside id="playlist-queue">
+                <header>
+                    <h3>Queue</h3>
+                    <h5><a href="#queue-menu">queue<i class="fas fa-caret-down carot-down"></i></a></h5>
+                    <div id="queue-menu" class="menu"> 
+                        <a href="#" class="close-menu"><i class="far fa-times-circle"></i></a>
+                        <ul>
+                            <li><p>Playists</p></li>
+                            
+                            <li><p>Favourite Songs</p></li>
+                        </ul>
+                    </div>
+                </header>
+                <div id="aside-main-content">
+                    <div class="item">
+                        <div>
+                            <p>01</p>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <p>01</p>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <i class="fas fa-align-left playing-fa"></i>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <p>01</p>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <p>01</p>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <p>01</p>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <p>01</p>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <p>01</p>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <p>01</p>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <p>01</p>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <p>01</p>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <p>01</p>
+                            <div class="item-img">
+                            </div>
+                            <div class="item-details">
+                                <p>Mirage</p>
+                                <p>Else</p>
+                            </div>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+            </aside>
+
+        </main>
+
+        <!-- ***************** Footer Section (Playbar) ***************-->
+        <footer>
+            <div id="play-bar">
+                <div class="item">
+                    <div>
+                        <div class="item-img">
+                        </div>
+                        <div id="play-bar-song-details" class="item-details">
+                            <p>Mirage</p>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-ban"></i>
+                </div>
+                <audio src="song.mp3" controls autoplay></audio>
+            </div>
+        </footer>
+        
+    </body>
+</html>
